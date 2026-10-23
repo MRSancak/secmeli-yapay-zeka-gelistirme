@@ -37,7 +37,7 @@ print(ogrenci)
 ogrencii=(35,"Merhaba","elma",11,"Armut",True) #Tuple Tarzı liste
 print(type(ogrencii)) #liste tipi
 print(len(ogrencii)) #eleman miktarı
-print("H"*20) #stringi 20 defa yazdırma
+print("-"*20) #stringi 20 defa yazdırma
 print(ogrencii.count(35)) #listede o elemandan kaç tane olduğu
 print(ogrencii.index(11)) #listede o elemanın kaçıncı sırada olduğu
 ogrencii_list = list(ogrencii) #normal listeye çevirme
@@ -46,3 +46,17 @@ ogrencii_list.append("Toki") #liste sonuna eleman ekleme
 print(ogrencii_list)
 ogrencii= tuple(ogrencii_list) #listeyi tuple li steye çevirme
 print(ogrencii)
+
+# Dictionary
+araba = {"Marka":"BMW","Model":"320d","Yıl":2024,"Motor Hacmi":2.0}
+print("-"*20)
+print(type(araba))
+print(len(araba))
+print("-"*20)
+print(araba.keys())
+print("-"*20)
+print(araba.values())
+print("-"*20)
+print(araba.items())
+print("-"*20)
+print(araba)

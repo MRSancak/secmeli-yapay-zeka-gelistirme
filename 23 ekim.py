@@ -2,7 +2,7 @@
 ad="Hamdican"
 yas=16
 ehliyet=False
-kilo=68,5
+kilo=68.5
 
 #type kodu değişkenin türünü söyler
 print(type(ad))
